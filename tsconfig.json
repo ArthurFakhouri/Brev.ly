@@ -12,10 +12,14 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "moduleResolution": "bundler",
+    "baseUrl": "./",
     "paths": {
+      "@/env": [
+        "src/env.ts"
+      ],
       "@/": [
-        "./src/*"
-      ]
+        "src/*"
+      ],
     }
   }
 }
