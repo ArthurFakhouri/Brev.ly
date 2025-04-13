@@ -17,6 +17,18 @@
       "@/env": [
         "src/env.ts"
       ],
+      "@/postgres": [
+        "src/infra/db/postgres.ts"
+      ],
+      "@/redis": [
+        "src/infra/db/redis.ts"
+      ],
+      "@/schema": [
+        "src/infra/db/schemas/index.ts"
+      ],
+      "@/storage": [
+        "src/infra/storage/client.ts"
+      ],
       "@/": [
         "src/*"
       ],
