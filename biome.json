@@ -28,7 +28,8 @@
         "noArrayIndexKey": "info"
       },
       "style": {
-        "noNonNullAssertion": "off"
+        "noNonNullAssertion": "off",
+        "useNumberNamespace": "off"
       }
     }
   },
