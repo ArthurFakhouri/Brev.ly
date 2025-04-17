@@ -1,4 +1,4 @@
-import { createLink } from '@/apis/createLink'
+import { createLink } from '@/api/createLink'
 import { useLinkStore } from '@/stores/link'
 import { type NewLinkProps, newLinkSchema } from '@/validations/newLink'
 import { zodResolver } from '@hookform/resolvers/zod'
