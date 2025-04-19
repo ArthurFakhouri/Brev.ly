@@ -14,9 +14,6 @@
     "moduleResolution": "bundler",
     "baseUrl": "./",
     "paths": {
-      "@/env": [
-        "src/env.ts"
-      ],
       "@/postgres": [
         "src/infra/db/postgres.ts"
       ],
@@ -26,10 +23,13 @@
       "@/schema": [
         "src/infra/db/schemas/index.ts"
       ],
-      "@/storage": [
-        "src/infra/storage/client.ts"
+      "@/storage/*": [
+        "src/infra/storage/*"
       ],
-      "@/": [
+      "@/functions/*": [
+        "src/app/functions/*"
+      ],
+      "@/*": [
         "src/*"
       ],
     }
