@@ -1,5 +1,5 @@
 import * as PopoverRadix from '@radix-ui/react-popover'
-import { type MotionProps, motion } from 'motion/react'
+import { motion } from 'motion/react'
 import type { ComponentProps, ReactNode } from 'react'
 
 type PopoverProps = {
