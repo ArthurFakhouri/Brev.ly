@@ -8,11 +8,12 @@ import {
   serializerCompiler,
   validatorCompiler,
 } from 'fastify-type-provider-zod'
+import { routes } from './routes'
 
 const server = fastify()
 
-server.setSerializerCompiler(serializerCompiler)
 server.setValidatorCompiler(validatorCompiler)
+server.setSerializerCompiler(serializerCompiler)
 
 server.setErrorHandler((error, request, reply) => {
   if (hasZodFastifySchemaValidationErrors(error)) {
@@ -22,8 +23,6 @@ server.setErrorHandler((error, request, reply) => {
     })
   }
 
-  console.error(error)
-
   return reply.status(500).send({
     message: 'Internal server error',
   })
@@ -31,6 +30,8 @@ server.setErrorHandler((error, request, reply) => {
 
 server.register(fastifyCors, {
   origin: '*',
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
+  credentials: true,
 })
 
 server.register(fastifySwagger, {
@@ -42,6 +43,8 @@ server.register(fastifySwagger, {
   },
   transform: jsonSchemaTransform,
 })
+
+Object.values(routes).map(route => server.register(route))
 
 server.register(scalarUI, {
   routePrefix: '/docs',
