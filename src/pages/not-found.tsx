@@ -1,6 +1,6 @@
 import image404 from '@/assets/404.svg'
-import { Box } from "@/components/box";
-import { Link } from '@/components/link';
+import { Box } from "@/components/ui/box";
+import { Link } from '@/components/ui/link';
 
 export function NotFound() {
   return (
