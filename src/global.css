@@ -18,3 +18,23 @@
   --color-gray-500: #4d505c;
   --color-gray-600: #1f2025;
 }
+
+@layer components {
+  .scroll::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+    background-color: transparent;
+    border-radius: 999px;
+  }
+
+  .scroll::-webkit-scrollbar-corner {
+    background-color: transparent;
+  }
+
+  .scroll::-webkit-scrollbar-thumb {
+    width: 2px;
+    background-color: theme("color.blue.base");
+    border: 2.5px solid theme("color.blue.dark");
+    border-radius: 999px;
+  }
+}
