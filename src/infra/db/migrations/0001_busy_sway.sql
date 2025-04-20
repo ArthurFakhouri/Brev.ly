@@ -1,0 +1,1 @@
+ALTER TABLE "links" ADD COLUMN "created_at" timestamp DEFAULT now();
