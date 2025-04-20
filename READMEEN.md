@@ -61,7 +61,7 @@ Go to the folder where you cloned the project, open the terminal and run the com
 
 ## 🚀 Technologies
 
-O projeto foi desenvolvido utilizando as seguintes tecnologias:
+The project was developed using the following technologies:
 
 Servidor:
 - [<img alt="" src="https://nodejs.org/favicon.ico" width="16px" /> Node](https://nodejs.org)
