@@ -1,5 +1,5 @@
 ### 🌐 PT-BR
-#### [EN-US](https://github.com/ArthurFakhouri/nlw-connect-web/blob/main/READMEEN.md)
+#### [EN-US]((https://github.com/ArthurFakhouri/Brev.ly/blob/main/READMEEN.md))
 
 <div align="center">
     <img alt="nlw-connect" title="#nlw-connect" src=".github/logo.svg" width="250px" />
