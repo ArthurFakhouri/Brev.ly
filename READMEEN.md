@@ -2,7 +2,7 @@
 #### [PT-BR](https://github.com/ArthurFakhouri/Brev.ly/blob/main/README.md)
 
 <div align="center">
-    <img alt="nlw-connect" title="#nlw-connect" src=".github/logo.svg" width="250px" />
+    <img alt="brev.ly" title="#brevly" src=".github/logo.svg" width="250px" />
 </div>
 
 <h4 align="center"> 
