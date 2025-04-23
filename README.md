@@ -79,6 +79,8 @@ Servidor:
 
 Web:
 - [<img alt="" src="https://react.dev/favicon.ico" width="16px" /> React](https://react.dev)
+- [<img alt="" src="https://vite.dev/logo.svg" width="16px" /> Vite](https://react.dev)
+- [<img alt="" src="https://reactrouter.com/favicon-dark.png" width="16px" /> React Router](https://react.dev)
 - [<img alt="" src="https://react-hook-form.com/images/logo/react-hook-form-logo-only.png" width="16px" /> React Hook Form](https://react-hook-form.com/)
 - [<img alt="" src="https://framerusercontent.com/images/3aQX5dnH5Yqgsn98QXKF2ZXxIE.png" width="16px" /> Motion](https://motion.dev/)
 - [<img alt="" src="https://axios-http.com/assets/favicon.ico" width="16px" /> Axios](https://axios-http.com/)
