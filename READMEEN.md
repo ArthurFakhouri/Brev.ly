@@ -56,6 +56,10 @@ Go to the folder where you cloned the project, open the terminal and run the com
 
 
 
+https://github.com/user-attachments/assets/647cffa0-12cd-47b7-8c12-812c4d0e2367
+
+
+
 
 
 
