@@ -78,7 +78,7 @@ Servidor:
 - [<img alt="" src="https://www.postgresql.org/favicon.ico" width="16px" /> PostgreSQL](https://www.postgresql.org/)
 - [<img alt="" src="https://redis.io/favicon.ico" width="16px" /> Redis](https://redis.io)
 - [<img alt="" src="https://csv.js.org/favicon-32x32.png" width="16px" /> CSV-Stringify](https://csv.js.org/)
-- [<img alt="" src="https://zod.dev/static/favicon.ico" width="16px" /> Zod](https://zod.dev/)
+- [<img alt="" src="https://zod.dev/icon.png?39fe259ddd7f4224" width="16px" /> Zod](https://zod.dev/)
 - [<img alt="" src="https://cloudflare.com/favicon.ico" width="16px" /> Cloudflare R2](https://cloudflare.com)
 
 Web:
@@ -94,7 +94,7 @@ Web:
 - [<img alt="" src="https://www.tailwind-variants.org/favicon/favicon-16x16.png" width="16px" /> Tailwind Variants](https://www.tailwind-variants.org/)
 - [<img alt="" src="https://www.typescriptlang.org/favicon.ico" width="16px" /> Typescript](https://www.typescriptlang.org)
 - [<img alt="" src="https://phosphoricons.com/favicon.ico" width="16px" /> Phosphor Icons](https://phosphoricons.com)
-- [<img alt="" src="https://zod.dev/static/favicon.ico" width="16px" /> Zod](https://zod.dev/)
+- [<img alt="" src="https://zod.dev/icon.png?39fe259ddd7f4224" width="16px" /> Zod](https://zod.dev/)
 - [<img alt="" src="https://zustand-demo.pmnd.rs/favicon.ico" width="16px" /> Zustand](https://zustand-demo.pmnd.rs/)
 
 ## :memo: Licença
